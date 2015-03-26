@@ -1,6 +1,6 @@
 package tasks_with_temperate_complexity.search_max_value;
 
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
@@ -8,7 +8,7 @@ import static org.testng.Assert.assertEquals;
 public class MaxValueSearcherTest {
     private MaxValueSearcher maxValueSearcher;
 
-    @BeforeMethod
+    @BeforeClass
     public void setUp() throws Exception {
         maxValueSearcher = new MaxValueSearcher();
     }
